@@ -37,18 +37,6 @@ function App() {
         type="x"
         link="https://twitter.com/sekachov/status/1965471688818393152"
       />
-
-       <Card
-        title="Project Ideas!"
-        type="youtube"
-        link="https://www.youtube.com/watch?v=vPRdY87_SH0"
-      />
-
-      <Card
-        title="Cool Tweet"
-        type="x"
-        link="https://twitter.com/sekachov/status/1965471688818393152"
-      />
     </div>
 
     </>
