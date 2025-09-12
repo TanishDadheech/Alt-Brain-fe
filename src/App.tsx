@@ -9,11 +9,48 @@ function App() {
 
   return (
     <>
-      <Button variant='primary' text='Add Content' startIcon={<PlusIcon/>}></Button>
+    <div className="flex justify-end gap-4 pt-4">
       <Button variant='secondary' text='Share Brain' startIcon={<ShareIcon/>}></Button>
+      <Button variant='primary' text='Add Content' startIcon={<PlusIcon/>}></Button>
+    </div>
+    <div className="flex flex-wrap justify-around gap-4 pt-4">
+      <Card
+        title="Project Ideas!"
+        type="youtube"
+        link="https://www.youtube.com/watch?v=vPRdY87_SH0"
+      />
 
+      <Card
+        title="Cool Tweet"
+        type="x"
+        link="https://twitter.com/sekachov/status/1965471688818393152"
+      />
 
-      <Card/>
+       <Card
+        title="Project Ideas!"
+        type="youtube"
+        link="https://www.youtube.com/watch?v=vPRdY87_SH0"
+      />
+
+      <Card
+        title="Cool Tweet"
+        type="x"
+        link="https://twitter.com/sekachov/status/1965471688818393152"
+      />
+
+       <Card
+        title="Project Ideas!"
+        type="youtube"
+        link="https://www.youtube.com/watch?v=vPRdY87_SH0"
+      />
+
+      <Card
+        title="Cool Tweet"
+        type="x"
+        link="https://twitter.com/sekachov/status/1965471688818393152"
+      />
+    </div>
+
     </>
   )
 }
