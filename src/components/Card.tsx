@@ -1,5 +1,3 @@
-// import { ShareIcon } from "../icons/ShareIcon";
-
 // export function Card(){
 //     return <div>
 
